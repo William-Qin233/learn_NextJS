@@ -13,9 +13,30 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string",
-      "unique": true,
-      "required": true
+      "type": "string"
+    },
+    "qr_code": {
+      "type": "string"
+    },
+    "qr_code_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "copy_right": {
+      "type": "string"
+    },
+    "site_number": {
+      "type": "string"
+    },
+    "public_number": {
+      "type": "string"
     },
     "link_lists": {
       "type": "relation",

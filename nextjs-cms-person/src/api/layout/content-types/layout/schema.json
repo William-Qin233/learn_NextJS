@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "layouts",
+  "info": {
+    "singularName": "layout",
+    "pluralName": "layouts",
+    "displayName": "layout",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "link_lists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::link-list.link-list"
+    }
+  }
+}

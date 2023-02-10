@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * layout service
+ * layout service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;

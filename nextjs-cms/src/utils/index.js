@@ -1,4 +1,3 @@
-// ./src/utils/index.js
 /**
  * 移除对象中自动创建的时间字段
  * @param obj

@@ -1,4 +1,3 @@
-// ./src/api/layout/controllers/layout.js
 "use strict";
 const { removeTime, removeAttrsAndId } = require("../../../utils/index.js");
 
